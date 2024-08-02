@@ -1,0 +1,102 @@
+.ContainerMain{
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),  url(../../assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Containermaintitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Titleladoñarosamain{
+    color: white;
+    font-size: 90px;
+    font-family: "Great Vibes";
+    text-align: center;  
+}
+
+.parraphtitledoñarosa{
+    color: white;    
+    font-size: 20px;
+    text-align: center;
+    font-family: "Gloock", serif;
+    font-style: italic;
+    margin: 0;
+    
+}
+
+.parraphtitledoñarosa span{
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+    font-size: 26px;
+    border-bottom: 2px solid yellow;
+}
+
+.deliveryimg{
+    width: 60px;
+}
+.Btnmainbtn{
+    background-color: rgb(93, 34, 254);
+    color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 45px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: "Gloock", serif;        
+}
+
+.Btnmainbtn:hover{
+    transition: all 1s;
+    background-color: rgb(53, 0, 200);
+    width: 200px;
+
+}
+
+
+
+@media (max-width:710px){
+    .Titleladoñarosamain{
+        color: white;
+        font-size: 60px;
+        font-family: "Great Vibes";
+        text-align: center;  
+    }   
+    
+    .Btnmainbtn{
+        margin-top: 40px;      
+    }
+    
+}
+
+@media (max-width:510px){
+    .Titleladoñarosamain{
+        color: white;
+        font-size: 40px;
+        font-family: "Great Vibes";
+        text-align: center;  
+    }
+
+    .parraphtitledoñarosa{        
+        font-size: 16px; 
+    }
+
+    .parraphtitledoñarosa span{
+        font-size: 18px;
+     
+    }
+
+    .deliveryimg{
+        width: 40px;
+    }
+    
+}
+

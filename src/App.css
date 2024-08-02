@@ -1,0 +1,19 @@
+.Boxwsp{
+  display: flex;
+  flex-direction: column;
+}
+
+.Btnwsp{
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+}
+
+.wspimagebtn{
+  width: 80px;
+}
+
+.wspimagebtn:hover{
+  transition: all 1s;
+  width: 90px;   
+}

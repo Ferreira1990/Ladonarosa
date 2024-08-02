@@ -1,0 +1,122 @@
+.ContainerProductsDoñaRosa{
+    height: 100%;  
+}
+
+.Titulodeproductos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Titulodeproductos h1{
+    text-align: center;
+    font-family: "Gloock", serif;
+    margin-top: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+
+
+}
+
+/* CAJAS DE PRODUCTOS HUEVOSSSSSSSSS------------------------------- */
+
+.Boxofproducts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Boxofproducts h4{
+    font-size: 28px;    
+}
+.lineadivisor{
+    border-bottom: solid 1px gray;
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.boxofcardsproducts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.CardsProducts{
+    height: 500px;
+    width: 300px; 
+}
+
+.Boxcardimageproduct{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.Huevos{
+    width: 70%;    
+}
+
+.Productprice{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+.Productprice h4{
+    text-align: center;
+}
+
+.Productdescription{
+    display: flex;
+    justify-content: center;
+    height: 10%;  
+}
+
+.Productdescription p{
+    text-align: center;
+
+}
+
+.boxbuttonproducts{
+    display: flex;
+    justify-content: center;
+    height:10% ;
+    margin-top: 15px;
+}
+
+.boxbuttonproducts button{
+    background-color: rgb(180, 0, 96);
+    color: white;
+    border-radius: 15px;
+    border: none;  
+    font-family: "Gloock", serif; 
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.boxbuttonproducts button:hover{
+    transition: all 1s;
+    background-color: rgb(222, 0, 119);
+}
+
+
+.lechecolun{
+    width: 90%;
+}
+
+.lechecolunx{
+    width: 60%;
+}
+
+
+.Mantequilla{
+    width: 100%;
+}

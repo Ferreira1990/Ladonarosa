@@ -1,0 +1,84 @@
+.Containerlavalozas{
+height: 100%;
+}
+
+.Boxproductlavalozas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.boxtitulolavalozas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Containerlavalozas h1{
+    text-align: center;
+font-family: "Gloock", serif;
+margin-top: 40px;
+font-size: 40px;
+text-transform: uppercase;
+}
+
+
+
+.lineadivisordetergentes {
+    border-bottom: solid 1px gray;
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+
+/* CARDS PRODUCTS */
+
+.CardsProductslavaloza{
+    height: 500px;
+    width: 300px;
+  
+}
+.lavaloza{
+    width: 80%;
+}
+
+.lavalozaquix{
+    width: 60%;
+}
+
+.Boxcardimageproductlavaloza{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.Productpricelavaloza{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+.Productpricelavaloza h4{
+    text-align: center;
+}
+
+.Productdescriptionlavaloza{
+    display: flex;
+    justify-content: center;
+    height: 10%;  
+}
+
+.Productdescriptionlavaloza p{
+    text-align: center;
+
+}
+
+
+@media (max-width:700px){
+    .Containerlavalozas h1{
+    font-size: 32px;
+
+    }
+}
