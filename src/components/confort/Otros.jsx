@@ -178,7 +178,7 @@ const Otros = () => {
     </div>
     <div className='Productdescriptionlavaloza'>
        <p>
-       Escobillon Virutex</p>
+       Bolsa basura IMPEKE 70 x 90</p>
     </div>                         
 
 </div>
