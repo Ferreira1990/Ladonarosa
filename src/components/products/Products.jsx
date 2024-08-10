@@ -5,6 +5,7 @@ import ARIEL from '../../assets/arielito.webp'
 import ARIELDOWNY from '../../assets/arieldowny.webp'
 import OMOCONCENTRADO from '../../assets/omoconcentrado.webp'
 import SOFT from '../../assets/soft.jpg'
+import OMOSENSI from '../../assets/omosensible.webp'
 
 const Products = () => {
     return (
@@ -51,23 +52,7 @@ const Products = () => {
                         </div>
 
                         {/* ---------------------------------------------------------------------------------------------------- */}
-
-
-                        <div className='CardsProducts'>
-                        <div className='Boxcardimageproduct'>
-                                <img className='lechecolunx' src={OMOCONCENTRADO} alt="" />
-                            </div>
-
-                            <div className='Productprice'>
-                                <h4>4.490$</h4>
-                            </div>
-
-                            <div className='Productdescription'>
-                               <p>Detergente Líquido Ultra Concentrado Para Diluir 500 Ml Omo</p>
-                            </div>
-                       
-
-                        </div>
+                   
 
                         <div className='CardsProducts'>
                         <div className='Boxcardimageproduct'>
@@ -88,6 +73,48 @@ const Products = () => {
                               
 
                     </div>
+
+                    {/* ---------------------------------------------------------------------------------------------------------- */}
+
+                    <div className='boxofcardsproducts'>
+
+                    <div className='CardsProducts'>
+                        <div className='Boxcardimageproduct'>
+                                <img className='lechecolunx' src={OMOCONCENTRADO} alt="" />
+                            </div>
+
+                            <div className='Productprice'>
+                                <h4>4.490$</h4>
+                            </div>
+
+                            <div className='Productdescription'>
+                               <p>Detergente Líquido Ultra Concentrado Para Diluir 500 Ml Omo</p>
+                            </div>
+                       
+
+                        </div>
+
+<div className='CardsProducts'>
+    <div className='Boxcardimageproduct'>
+        <img className='omosensible' src={OMOSENSI} alt="" />
+    </div>
+
+    <div className='Productprice'>
+        <h4>4.490$</h4>
+    </div>
+    <div className='Productdescription'>
+       <p>Detergente Líquido Omo Ultra Power Piel Sensible 500 ml</p>
+    </div>
+</div>
+
+
+      
+
+</div>
+
+
+
+                    
 
                 </div>
             </div>
